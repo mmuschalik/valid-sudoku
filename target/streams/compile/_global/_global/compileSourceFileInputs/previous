@@ -1,1 +1,0 @@
-["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"0.25.0-RC2":{"hashes":[["/home/maurice/repo/sudoku-check/src/main/scala/Main.scala","a5089820d22184eb6e39b3a0049f274f4ffb8528"]],"lastModifiedTimes":[]}}]
