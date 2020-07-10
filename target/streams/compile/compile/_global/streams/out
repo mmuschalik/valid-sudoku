@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/maurice/repo/sudoku-check/src/main/scala/Main.scala:20:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m20 |[0m    raw.map([36mr[0m => r.map([36mc[0m => c.intOption))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                            [31m^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                            value intOption is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
