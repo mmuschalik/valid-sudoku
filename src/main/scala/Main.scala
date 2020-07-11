@@ -48,11 +48,9 @@ def checkAll(size: Int) =
   checkCols(size * size) ++
   checkBox(size)
 
-// I need to have a look at equality / equality type classes
-// and integration with the collections library
 def hasDuplicates[C](cs: List[Option[C]]): Boolean =
-  cs.flatMap(f => f.toList)
-    .distinct.length != cs.length
+  val removeNones = cs.flatMap(f => f.toList)
+  removeNones.distinct.length != removeNones.length
 
 def hasAnyDuplicates[C](cs: List[List[Option[C]]]): Boolean =
   cs.exists(hasDuplicates)
